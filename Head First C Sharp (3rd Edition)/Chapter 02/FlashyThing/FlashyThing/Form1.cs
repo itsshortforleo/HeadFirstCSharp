@@ -34,7 +34,6 @@ namespace oohPretty
                     System.Threading.Thread.Sleep(3);
                 }
             }
-            
         }
     }
 }
