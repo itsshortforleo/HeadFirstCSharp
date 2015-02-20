@@ -25,9 +25,7 @@ namespace FunWithJoeAndBob
         {
             InitializeComponent();
             // Initialize joe and bob here!
-            joe = new Guy();
-            joe.Name = "Joe";
-            joe.Cash = 50;
+            joe = new Guy() { Cash = 50, Name = "Joe" };
             bob = new Guy();
             bob.Name = "Bob";
             bob.Cash = 100;
