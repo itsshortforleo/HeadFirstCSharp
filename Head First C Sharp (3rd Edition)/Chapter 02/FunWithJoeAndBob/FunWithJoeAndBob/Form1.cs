@@ -26,9 +26,7 @@ namespace FunWithJoeAndBob
             InitializeComponent();
             // Initialize joe and bob here!
             joe = new Guy() { Cash = 50, Name = "Joe" };
-            bob = new Guy();
-            bob.Name = "Bob";
-            bob.Cash = 100;
+            bob = new Guy() { Cash = 100, Name = "Bob" };
             UpdateForm();
         }
 
@@ -49,6 +47,33 @@ namespace FunWithJoeAndBob
         {
             bank += bob.GiveCash(5);
             UpdateForm();
+        }
+
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+            if (joe.Cash>=10)
+            {
+                joe.Cash -= bob.ReceiveCash(10);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show("Joe doesn't have enough money to give to Bob.");
+            }
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            if (bob.Cash>=5)
+            {
+                bob.Cash -= joe.ReceiveCash(5);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show("Bob doesn't have enough money to give to Joe.");
+               
+            }
         }
     }
 }
