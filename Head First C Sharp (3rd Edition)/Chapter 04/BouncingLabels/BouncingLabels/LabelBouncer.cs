@@ -12,26 +12,27 @@ namespace BouncingLabels
         public Label MyLabel;
         public bool GoingFoward = true;
 
-        public void Move(){
+        public void Move()
+        {
             if (MyLabel != null)
             {
-                if (GoingFoward)
+                if (GoingFoward == true)
                 {
                     MyLabel.Left += 5;
-                    if (MyLabel.Left>=MyLabel.Parent.Width-MyLabel.Width)
+                    if (MyLabel.Left >= MyLabel.Parent.Width - MyLabel.Width)
                     {
                         GoingFoward = false;
                     }
                 }
-            }
-            else
-            {
-                MyLabel.Left -= 5;
-                if (MyLabel.Left<=0)
+                else
                 {
-                    GoingFoward = true;
+                    MyLabel.Left -= 5;
+                    if (MyLabel.Left <= 0)
+                    {
+                        GoingFoward = true;
+                    }
                 }
             }
-	}
+	    }
     }
 }
