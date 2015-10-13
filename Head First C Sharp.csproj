@@ -513,6 +513,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 05\CowCalculator\CowCalculator\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chapter 05\CowCalculator\CowCalculator\Properties\Resources.resx" />
     <EmbeddedResource Include="Chapter 05\PartyPlanner\PartyPlanner\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
