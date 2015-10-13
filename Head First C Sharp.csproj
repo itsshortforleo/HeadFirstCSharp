@@ -149,6 +149,7 @@
     <Content Include="Chapter 04\PoolPuzzle\PoolPuzzle.vssscc" />
     <Content Include="Chapter 04\PoolPuzzle\PoolPuzzle\PoolPuzzle.csproj" />
     <Content Include="Chapter 04\PoolPuzzle\PoolPuzzle\PoolPuzzle.csproj.vspscc" />
+    <Content Include="Chapter 05\CowCalculator\CowCalculator\CowCalculator.csproj" />
     <Content Include="Chapter 05\PartyPlanner\PartyPlanner.sln" />
     <Content Include="Chapter 05\PartyPlanner\PartyPlanner.vssscc" />
     <Content Include="Chapter 05\PartyPlanner\PartyPlanner\PartyPlanner.csproj" />
@@ -209,6 +210,9 @@
     <None Include="Chapter 04\MileageCalculator\MileageCalculator\Properties\Settings.settings" />
     <None Include="Chapter 04\PoolPuzzle\PoolPuzzle\App.config" />
     <None Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Settings.settings" />
+    <None Include="Chapter 05\CowCalculator\CowCalculator\App.config" />
+    <None Include="Chapter 05\CowCalculator\CowCalculator\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Chapter 05\CowCalculator\CowCalculator\Properties\Settings.settings" />
     <None Include="Chapter 05\PartyPlanner\PartyPlanner\App.config" />
     <None Include="Chapter 05\PartyPlanner\PartyPlanner\Properties\Settings.settings" />
   </ItemGroup>
@@ -422,6 +426,19 @@
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Resources.Designer.cs" />
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Settings.Designer.cs" />
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Triangle.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Program.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Properties\Settings.Designer.cs" />
     <Compile Include="Chapter 05\PartyPlanner\PartyPlanner\DinnerParty.cs" />
     <Compile Include="Chapter 05\PartyPlanner\PartyPlanner\Form1.cs">
       <SubType>Form</SubType>
@@ -495,6 +512,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 05\CowCalculator\CowCalculator\Properties\Resources.resx" />
     <EmbeddedResource Include="Chapter 05\PartyPlanner\PartyPlanner\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -576,6 +594,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".vs\" />
+    <Folder Include="Chapter 05\CowCalculator\CowCalculator\bin\Debug\" />
+    <Folder Include="Chapter 05\CowCalculator\CowCalculator\obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
