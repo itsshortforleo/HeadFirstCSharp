@@ -426,6 +426,7 @@
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Resources.Designer.cs" />
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Settings.Designer.cs" />
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Triangle.cs" />
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Farmer.cs" />
     <Compile Include="Chapter 05\CowCalculator\CowCalculator\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
