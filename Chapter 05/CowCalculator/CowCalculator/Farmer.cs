@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Head_First_C_Sharp.Chapter_05.CowCalculator.CowCalculator
+namespace CowCalculator
 {
     class Farmer
     {
@@ -11,12 +12,11 @@ namespace Head_First_C_Sharp.Chapter_05.CowCalculator.CowCalculator
         public const int FeedMultiplier = 30;
 
         private int numberOfCows;
-
         public int NumberOfCows
         {
             get { return numberOfCows; }
             set 
-            {
+            { 
                 numberOfCows = value;
                 BagsOfFeed = numberOfCows * FeedMultiplier;
             }

@@ -34,6 +34,8 @@
     <RootNamespace>Head_First_C_Sharp</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -42,79 +44,59 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker.sln" />
     <Content Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker.vssscc" />
     <Content Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\4 BackgroundWorker.csproj" />
     <Content Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\4 BackgroundWorker.csproj.vspscc" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans.sln" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Assets\Logo.png" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Assets\SmallLogo.png" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Assets\SplashScreen.png" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Assets\StoreLogo.png" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\ReadMe.txt" />
-    <Content Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Save the Humans.csproj" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp.sln" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp.vssscc" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp\Assets\Logo.png" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp\Assets\SmallLogo.png" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp\Assets\SplashScreen.png" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp\Assets\StoreLogo.png" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp\BuildAnApp.csproj" />
-    <Content Include="Chapter 02\BuildAnApp\BuildAnApp\BuildAnApp.csproj.vspscc" />
-    <Content Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4.sln" />
-    <Content Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4.vssscc" />
-    <Content Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Chapter 2 - Program 4.csproj" />
-    <Content Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Chapter 2 - Program 4.csproj.vspscc" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets.sln" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets.vssscc" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets\Assets\Logo.png" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets\Assets\SmallLogo.png" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets\Assets\SplashScreen.png" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets\Assets\StoreLogo.png" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets\CodeMagnets.csproj" />
-    <Content Include="Chapter 02\CodeMagnets\CodeMagnets\CodeMagnets.csproj.vspscc" />
-    <Content Include="Chapter 02\FlashyThing\FlashyThing.sln" />
-    <Content Include="Chapter 02\FlashyThing\FlashyThing\FlashyThing.csproj" />
-    <Content Include="Chapter 02\ForTestingSyntax\ForTestingSyntax.sln" />
-    <Content Include="Chapter 02\ForTestingSyntax\ForTestingSyntax.vssscc" />
-    <Content Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\ForTestingSyntax.csproj" />
-    <Content Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\ForTestingSyntax.csproj.vspscc" />
-    <Content Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob.sln" />
-    <Content Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob.vssscc" />
-    <Content Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\FunWithJoeAndBob.csproj" />
-    <Content Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\FunWithJoeAndBob.csproj.vspscc" />
-    <Content Include="Chapter 02\letsDigIn\letsDigIn.sln" />
-    <Content Include="Chapter 02\letsDigIn\letsDigIn.vssscc" />
-    <Content Include="Chapter 02\letsDigIn\letsDigIn\letsDigIn.csproj" />
-    <Content Include="Chapter 02\letsDigIn\letsDigIn\letsDigIn.csproj.vspscc" />
-    <Content Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127.sln" />
-    <Content Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127.vssscc" />
-    <Content Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\PoolPuzzlePage127.csproj" />
-    <Content Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\PoolPuzzlePage127.csproj.vspscc" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle.sln" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle.vssscc" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle\Assets\Logo.png" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle\Assets\SmallLogo.png" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle\Assets\SplashScreen.png" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle\Assets\StoreLogo.png" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle\PoolPuzzle.csproj" />
-    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle\PoolPuzzle.csproj.vspscc" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse.sln" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse.vssscc" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Assets\Logo.png" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Assets\SmallLogo.png" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Assets\SplashScreen.png" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Assets\StoreLogo.png" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\PracticeUsingIfElse.csproj" />
-    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\PracticeUsingIfElse.csproj.vspscc" />
-    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger.sln" />
-    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger\Assets\Logo.png" />
-    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger\Assets\SmallLogo.png" />
-    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger\Assets\SplashScreen.png" />
-    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger\Assets\StoreLogo.png" />
-    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger\UseTheDebugger.csproj" />
+    <Content Include="Chapter 01\Save the Humans\Assets\Logo.png" />
+    <Content Include="Chapter 01\Save the Humans\Assets\SmallLogo.png" />
+    <Content Include="Chapter 01\Save the Humans\Assets\SplashScreen.png" />
+    <Content Include="Chapter 01\Save the Humans\Assets\StoreLogo.png" />
+    <Content Include="Chapter 01\Save the Humans\Common\ReadMe.txt" />
+    <Content Include="Chapter 01\Save the Humans\Save the Humans.csproj" />
+    <Content Include="Chapter 02\BuildAnApp\Assets\Logo.png" />
+    <Content Include="Chapter 02\BuildAnApp\Assets\SmallLogo.png" />
+    <Content Include="Chapter 02\BuildAnApp\Assets\SplashScreen.png" />
+    <Content Include="Chapter 02\BuildAnApp\Assets\StoreLogo.png" />
+    <Content Include="Chapter 02\BuildAnApp\BuildAnApp.csproj" />
+    <Content Include="Chapter 02\BuildAnApp\BuildAnApp.csproj.vspscc" />
+    <Content Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4.csproj" />
+    <Content Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4.csproj.vspscc" />
+    <Content Include="Chapter 02\CodeMagnets\Assets\Logo.png" />
+    <Content Include="Chapter 02\CodeMagnets\Assets\SmallLogo.png" />
+    <Content Include="Chapter 02\CodeMagnets\Assets\SplashScreen.png" />
+    <Content Include="Chapter 02\CodeMagnets\Assets\StoreLogo.png" />
+    <Content Include="Chapter 02\CodeMagnets\CodeMagnets.csproj" />
+    <Content Include="Chapter 02\CodeMagnets\CodeMagnets.csproj.vspscc" />
+    <Content Include="Chapter 02\FlashyThing\FlashyThing.csproj" />
+    <Content Include="Chapter 02\ForTestingSyntax\ForTestingSyntax.csproj" />
+    <Content Include="Chapter 02\ForTestingSyntax\ForTestingSyntax.csproj.vspscc" />
+    <Content Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob.csproj" />
+    <Content Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob.csproj.vspscc" />
+    <Content Include="Chapter 02\letsDigIn\letsDigIn.csproj" />
+    <Content Include="Chapter 02\letsDigIn\letsDigIn.csproj.vspscc" />
+    <Content Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127.csproj" />
+    <Content Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127.csproj.vspscc" />
+    <Content Include="Chapter 02\PoolPuzzle\Assets\Logo.png" />
+    <Content Include="Chapter 02\PoolPuzzle\Assets\SmallLogo.png" />
+    <Content Include="Chapter 02\PoolPuzzle\Assets\SplashScreen.png" />
+    <Content Include="Chapter 02\PoolPuzzle\Assets\StoreLogo.png" />
+    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle.csproj" />
+    <Content Include="Chapter 02\PoolPuzzle\PoolPuzzle.csproj.vspscc" />
+    <Content Include="Chapter 02\PracticeUsingIfElse\Assets\Logo.png" />
+    <Content Include="Chapter 02\PracticeUsingIfElse\Assets\SmallLogo.png" />
+    <Content Include="Chapter 02\PracticeUsingIfElse\Assets\SplashScreen.png" />
+    <Content Include="Chapter 02\PracticeUsingIfElse\Assets\StoreLogo.png" />
+    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse.csproj" />
+    <Content Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse.csproj.vspscc" />
+    <Content Include="Chapter 02\UseTheDebugger\Assets\Logo.png" />
+    <Content Include="Chapter 02\UseTheDebugger\Assets\SmallLogo.png" />
+    <Content Include="Chapter 02\UseTheDebugger\Assets\SplashScreen.png" />
+    <Content Include="Chapter 02\UseTheDebugger\Assets\StoreLogo.png" />
+    <Content Include="Chapter 02\UseTheDebugger\UseTheDebugger.csproj" />
     <Content Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces.sln" />
     <Content Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces.vssscc" />
     <Content Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces\ADayAtTheRaces.csproj" />
@@ -158,42 +140,42 @@
   <ItemGroup>
     <None Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\App.config" />
     <None Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\Properties\Settings.settings" />
-    <None Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Package.appxmanifest">
+    <None Include="Chapter 01\Save the Humans\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Save the Humans_TemporaryKey.pfx" />
-    <None Include="Chapter 02\BuildAnApp\BuildAnApp\BuildAnApp_TemporaryKey.pfx" />
-    <None Include="Chapter 02\BuildAnApp\BuildAnApp\Package.appxmanifest">
+    <None Include="Chapter 01\Save the Humans\Save the Humans_TemporaryKey.pfx" />
+    <None Include="Chapter 02\BuildAnApp\BuildAnApp_TemporaryKey.pfx" />
+    <None Include="Chapter 02\BuildAnApp\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\App.config" />
-    <None Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Properties\Settings.settings" />
-    <None Include="Chapter 02\CodeMagnets\CodeMagnets\CodeMagnets_TemporaryKey.pfx" />
-    <None Include="Chapter 02\CodeMagnets\CodeMagnets\Package.appxmanifest">
+    <None Include="Chapter 02\Chapter 2 - Program 4\App.config" />
+    <None Include="Chapter 02\Chapter 2 - Program 4\Properties\Settings.settings" />
+    <None Include="Chapter 02\CodeMagnets\CodeMagnets_TemporaryKey.pfx" />
+    <None Include="Chapter 02\CodeMagnets\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Chapter 02\FlashyThing\FlashyThing\App.config" />
-    <None Include="Chapter 02\FlashyThing\FlashyThing\Properties\Settings.settings" />
-    <None Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\App.config" />
-    <None Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Properties\Settings.settings" />
-    <None Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\App.config" />
-    <None Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Properties\Settings.settings" />
-    <None Include="Chapter 02\letsDigIn\letsDigIn\App.config" />
-    <None Include="Chapter 02\letsDigIn\letsDigIn\Properties\Settings.settings" />
-    <None Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\App.config" />
-    <None Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Properties\Settings.settings" />
-    <None Include="Chapter 02\PoolPuzzle\PoolPuzzle\Package.appxmanifest">
+    <None Include="Chapter 02\FlashyThing\App.config" />
+    <None Include="Chapter 02\FlashyThing\Properties\Settings.settings" />
+    <None Include="Chapter 02\ForTestingSyntax\App.config" />
+    <None Include="Chapter 02\ForTestingSyntax\Properties\Settings.settings" />
+    <None Include="Chapter 02\FunWithJoeAndBob\App.config" />
+    <None Include="Chapter 02\FunWithJoeAndBob\Properties\Settings.settings" />
+    <None Include="Chapter 02\letsDigIn\App.config" />
+    <None Include="Chapter 02\letsDigIn\Properties\Settings.settings" />
+    <None Include="Chapter 02\PoolPuzzlePage127\App.config" />
+    <None Include="Chapter 02\PoolPuzzlePage127\Properties\Settings.settings" />
+    <None Include="Chapter 02\PoolPuzzle\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Chapter 02\PoolPuzzle\PoolPuzzle\PoolPuzzle_TemporaryKey.pfx" />
-    <None Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Package.appxmanifest">
+    <None Include="Chapter 02\PoolPuzzle\PoolPuzzle_TemporaryKey.pfx" />
+    <None Include="Chapter 02\PracticeUsingIfElse\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\PracticeUsingIfElse_TemporaryKey.pfx" />
-    <None Include="Chapter 02\UseTheDebugger\UseTheDebugger\Package.appxmanifest">
+    <None Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse_TemporaryKey.pfx" />
+    <None Include="Chapter 02\UseTheDebugger\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Chapter 02\UseTheDebugger\UseTheDebugger\UseTheDebugger_TemporaryKey.pfx" />
+    <None Include="Chapter 02\UseTheDebugger\UseTheDebugger_TemporaryKey.pfx" />
     <None Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces\App.config" />
     <None Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces\Properties\Settings.settings" />
     <None Include="Chapter 04\BouncingLabels\BouncingLabels\App.config" />
@@ -228,116 +210,116 @@
     <Compile Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\Properties\AssemblyInfo.cs" />
     <Compile Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\Properties\Resources.Designer.cs" />
     <Compile Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\App.xaml.cs">
+    <Compile Include="Chapter 01\Save the Humans\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\BindableBase.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\BooleanNegationConverter.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\BooleanToVisibilityConverter.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\LayoutAwarePage.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\RichTextColumns.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\SuspensionManager.cs" />
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\MainPage.xaml.cs">
+    <Compile Include="Chapter 01\Save the Humans\Common\BindableBase.cs" />
+    <Compile Include="Chapter 01\Save the Humans\Common\BooleanNegationConverter.cs" />
+    <Compile Include="Chapter 01\Save the Humans\Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Chapter 01\Save the Humans\Common\LayoutAwarePage.cs" />
+    <Compile Include="Chapter 01\Save the Humans\Common\RichTextColumns.cs" />
+    <Compile Include="Chapter 01\Save the Humans\Common\SuspensionManager.cs" />
+    <Compile Include="Chapter 01\Save the Humans\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\BuildAnApp\BuildAnApp\App.xaml.cs">
+    <Compile Include="Chapter 01\Save the Humans\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\BuildAnApp\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\BuildAnApp\BuildAnApp\MainPage.xaml.cs">
+    <Compile Include="Chapter 02\BuildAnApp\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\BuildAnApp\BuildAnApp\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\AnotherClass.cs" />
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Form1.cs">
+    <Compile Include="Chapter 02\BuildAnApp\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\AnotherClass.cs" />
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Form1.Designer.cs">
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Program.cs" />
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Properties\Resources.Designer.cs" />
-    <Compile Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 02\CodeMagnets\CodeMagnets\App.xaml.cs">
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\Program.cs" />
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 02\Chapter 2 - Program 4\Properties\Settings.Designer.cs" />
+    <Compile Include="Chapter 02\CodeMagnets\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\CodeMagnets\CodeMagnets\MainPage.xaml.cs">
+    <Compile Include="Chapter 02\CodeMagnets\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\CodeMagnets\CodeMagnets\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\FlashyThing\FlashyThing\Form1.cs">
+    <Compile Include="Chapter 02\CodeMagnets\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\FlashyThing\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 02\FlashyThing\FlashyThing\Form1.Designer.cs">
+    <Compile Include="Chapter 02\FlashyThing\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\FlashyThing\FlashyThing\Program.cs" />
-    <Compile Include="Chapter 02\FlashyThing\FlashyThing\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\FlashyThing\FlashyThing\Properties\Resources.Designer.cs" />
-    <Compile Include="Chapter 02\FlashyThing\FlashyThing\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Form1.cs">
+    <Compile Include="Chapter 02\FlashyThing\Program.cs" />
+    <Compile Include="Chapter 02\FlashyThing\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\FlashyThing\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 02\FlashyThing\Properties\Settings.Designer.cs" />
+    <Compile Include="Chapter 02\ForTestingSyntax\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Form1.Designer.cs">
+    <Compile Include="Chapter 02\ForTestingSyntax\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Program.cs" />
-    <Compile Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Properties\Resources.Designer.cs" />
-    <Compile Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Form1.cs">
+    <Compile Include="Chapter 02\ForTestingSyntax\Program.cs" />
+    <Compile Include="Chapter 02\ForTestingSyntax\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\ForTestingSyntax\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 02\ForTestingSyntax\Properties\Settings.Designer.cs" />
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Form1.Designer.cs">
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Guy.cs" />
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Program.cs" />
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Properties\Resources.Designer.cs" />
-    <Compile Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 02\letsDigIn\letsDigIn\Form1.cs">
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Guy.cs" />
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Program.cs" />
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 02\FunWithJoeAndBob\Properties\Settings.Designer.cs" />
+    <Compile Include="Chapter 02\letsDigIn\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 02\letsDigIn\letsDigIn\Form1.Designer.cs">
+    <Compile Include="Chapter 02\letsDigIn\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\letsDigIn\letsDigIn\Program.cs" />
-    <Compile Include="Chapter 02\letsDigIn\letsDigIn\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\letsDigIn\letsDigIn\Properties\Resources.Designer.cs" />
-    <Compile Include="Chapter 02\letsDigIn\letsDigIn\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Form1.cs">
+    <Compile Include="Chapter 02\letsDigIn\Program.cs" />
+    <Compile Include="Chapter 02\letsDigIn\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\letsDigIn\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 02\letsDigIn\Properties\Settings.Designer.cs" />
+    <Compile Include="Chapter 02\PoolPuzzlePage127\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Form1.Designer.cs">
+    <Compile Include="Chapter 02\PoolPuzzlePage127\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Program.cs" />
-    <Compile Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Properties\Resources.Designer.cs" />
-    <Compile Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Properties\Settings.Designer.cs" />
-    <Compile Include="Chapter 02\PoolPuzzle\PoolPuzzle\App.xaml.cs">
+    <Compile Include="Chapter 02\PoolPuzzlePage127\Program.cs" />
+    <Compile Include="Chapter 02\PoolPuzzlePage127\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\PoolPuzzlePage127\Properties\Resources.Designer.cs" />
+    <Compile Include="Chapter 02\PoolPuzzlePage127\Properties\Settings.Designer.cs" />
+    <Compile Include="Chapter 02\PoolPuzzle\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\PoolPuzzle\PoolPuzzle\MainPage.xaml.cs">
+    <Compile Include="Chapter 02\PoolPuzzle\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\PoolPuzzle\PoolPuzzle\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\App.xaml.cs">
+    <Compile Include="Chapter 02\PoolPuzzle\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\PracticeUsingIfElse\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\MainPage.xaml.cs">
+    <Compile Include="Chapter 02\PracticeUsingIfElse\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Properties\AssemblyInfo.cs" />
-    <Compile Include="Chapter 02\UseTheDebugger\UseTheDebugger\App.xaml.cs">
+    <Compile Include="Chapter 02\PracticeUsingIfElse\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\UseTheDebugger\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\UseTheDebugger\UseTheDebugger\MainPage.xaml.cs">
+    <Compile Include="Chapter 02\UseTheDebugger\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 02\UseTheDebugger\UseTheDebugger\Properties\AssemblyInfo.cs" />
+    <Compile Include="Chapter 02\UseTheDebugger\Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces\Bet.cs" />
     <Compile Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces\Form1.cs">
       <SubType>Form</SubType>
@@ -427,9 +409,7 @@
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Properties\Settings.Designer.cs" />
     <Compile Include="Chapter 04\PoolPuzzle\PoolPuzzle\Triangle.cs" />
     <Compile Include="Chapter 05\CowCalculator\CowCalculator\Farmer.cs" />
-    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Chapter 05\CowCalculator\CowCalculator\Form1.cs" />
     <Compile Include="Chapter 05\CowCalculator\CowCalculator\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
@@ -457,30 +437,30 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="appendix i - leftovers\4 BackgroundWorker\4 BackgroundWorker\Properties\Resources.resx" />
-    <EmbeddedResource Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Form1.resx">
+    <EmbeddedResource Include="Chapter 02\Chapter 2 - Program 4\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 02\Chapter 2 - Program 4\Chapter 2 - Program 4\Properties\Resources.resx" />
-    <EmbeddedResource Include="Chapter 02\FlashyThing\FlashyThing\Form1.resx">
+    <EmbeddedResource Include="Chapter 02\Chapter 2 - Program 4\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 02\FlashyThing\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 02\FlashyThing\FlashyThing\Properties\Resources.resx" />
-    <EmbeddedResource Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Form1.resx">
+    <EmbeddedResource Include="Chapter 02\FlashyThing\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 02\ForTestingSyntax\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 02\ForTestingSyntax\ForTestingSyntax\Properties\Resources.resx" />
-    <EmbeddedResource Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Form1.resx">
+    <EmbeddedResource Include="Chapter 02\ForTestingSyntax\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 02\FunWithJoeAndBob\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 02\FunWithJoeAndBob\FunWithJoeAndBob\Properties\Resources.resx" />
-    <EmbeddedResource Include="Chapter 02\letsDigIn\letsDigIn\Form1.resx">
+    <EmbeddedResource Include="Chapter 02\FunWithJoeAndBob\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 02\letsDigIn\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 02\letsDigIn\letsDigIn\Properties\Resources.resx" />
-    <EmbeddedResource Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Form1.resx">
+    <EmbeddedResource Include="Chapter 02\letsDigIn\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 02\PoolPuzzlePage127\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 02\PoolPuzzlePage127\PoolPuzzlePage127\Properties\Resources.resx" />
+    <EmbeddedResource Include="Chapter 02\PoolPuzzlePage127\Properties\Resources.resx" />
     <EmbeddedResource Include="Chapter 04\ADayAtTheRaces\ADayAtTheRaces\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -523,75 +503,75 @@
     <EmbeddedResource Include="Chapter 05\PartyPlanner\PartyPlanner\Properties\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\App.xaml">
+    <Page Include="Chapter 01\Save the Humans\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\Common\StandardStyles.xaml">
+    <Page Include="Chapter 01\Save the Humans\Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 01\Save the Humans\Save the Humans\Save the Humans\MainPage.xaml">
+    <Page Include="Chapter 01\Save the Humans\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\BuildAnApp\BuildAnApp\App.xaml">
+    <Page Include="Chapter 02\BuildAnApp\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\BuildAnApp\BuildAnApp\Common\StandardStyles.xaml">
+    <Page Include="Chapter 02\BuildAnApp\Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\BuildAnApp\BuildAnApp\MainPage.xaml">
+    <Page Include="Chapter 02\BuildAnApp\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\CodeMagnets\CodeMagnets\App.xaml">
+    <Page Include="Chapter 02\CodeMagnets\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\CodeMagnets\CodeMagnets\Common\StandardStyles.xaml">
+    <Page Include="Chapter 02\CodeMagnets\Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\CodeMagnets\CodeMagnets\MainPage.xaml">
+    <Page Include="Chapter 02\CodeMagnets\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\PoolPuzzle\PoolPuzzle\App.xaml">
+    <Page Include="Chapter 02\PoolPuzzle\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\PoolPuzzle\PoolPuzzle\Common\StandardStyles.xaml">
+    <Page Include="Chapter 02\PoolPuzzle\Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\PoolPuzzle\PoolPuzzle\MainPage.xaml">
+    <Page Include="Chapter 02\PoolPuzzle\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\App.xaml">
+    <Page Include="Chapter 02\PracticeUsingIfElse\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\Common\StandardStyles.xaml">
+    <Page Include="Chapter 02\PracticeUsingIfElse\Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\PracticeUsingIfElse\PracticeUsingIfElse\MainPage.xaml">
+    <Page Include="Chapter 02\PracticeUsingIfElse\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\UseTheDebugger\UseTheDebugger\App.xaml">
+    <Page Include="Chapter 02\UseTheDebugger\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\UseTheDebugger\UseTheDebugger\Common\StandardStyles.xaml">
+    <Page Include="Chapter 02\UseTheDebugger\Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Chapter 02\UseTheDebugger\UseTheDebugger\MainPage.xaml">
+    <Page Include="Chapter 02\UseTheDebugger\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
