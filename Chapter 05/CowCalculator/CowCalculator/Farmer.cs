@@ -8,9 +8,14 @@ namespace CowCalculator
 {
     class Farmer
     {
-        public int BagsOfFeed;
-        public const int FeedMultiplier = 30;
-
+        public Farmer(int numberOfCows, int feedMultiplier)
+        {
+            this.feedMultiplier = feedMultiplier;
+            NumberOfCows = numberOfCows;
+        }
+        public int BagsOfFeed { get; set; }
+        private int feedMultiplier;
+        public int FeedMultiplier { get { return feedMultiplier; } }
         private int numberOfCows;
         public int NumberOfCows
         {
