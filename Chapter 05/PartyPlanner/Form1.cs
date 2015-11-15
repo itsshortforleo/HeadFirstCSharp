@@ -18,35 +18,32 @@ namespace PartyPlanner
         public Form1()
         {
             InitializeComponent();
-            dinnerParty = new DinnerParty() { NumberOfPeople = 5 };
-            dinnerParty.SetHealthyOption(healthyBox.Checked);
-            dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
-            dinnerParty.SetHealthyOption(healthyBox.Checked);
-            DisplayDinnerPartyCost();
-        }
-
-        private void DisplayDinnerPartyCost()
-        {
-            costLabel.Text = dinnerParty.CalculateCost(healthyBox.Checked).ToString("c");
-            
-        }
-
-        private void nudNumberOfPeople_ValueChanged(object sender, EventArgs e)
-        {
-            dinnerParty.NumberOfPeople = (int)nudNumberOfPeople.Value;
+            dinnerParty = new DinnerParty((int)nudNumberOfPeople.Value, healthyBox.Checked, fancyBox.Checked) { };
             DisplayDinnerPartyCost();
         }
 
         private void fancyBox_CheckedChanged(object sender, EventArgs e)
         {
-            dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
+            dinnerParty.FancyDecorations = fancyBox.Checked;
             DisplayDinnerPartyCost();
         }
-
         private void healthyBox_CheckedChanged(object sender, EventArgs e)
         {
-            dinnerParty.SetHealthyOption(healthyBox.Checked);
+            dinnerParty.HealthyOption = healthyBox.Checked;
             DisplayDinnerPartyCost();
         }
+        private void nudNumberOfPeople_ValueChanged(object sender, EventArgs e)
+        {
+            dinnerParty.NumberOfPeople = (int)nudNumberOfPeople.Value;
+            DisplayDinnerPartyCost();
+        }
+        private void DisplayDinnerPartyCost()
+        {
+            decimal Cost = dinnerParty.Cost;
+            costLabel.Text = Cost.ToString("c");
+        }
+
+
+
     }
 }

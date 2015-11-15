@@ -9,31 +9,43 @@ namespace PartyPlanner
 {
     public class DinnerParty
     {
-        public int NumberOfPeople;
-        public decimal CostOfBeveragesPerPerson;
-        public decimal CostOfDecorations;
-        public const int CostOfFoodPerPerson = 25;
+        public int NumberOfPeople { get; set; }
+        public bool FancyDecorations { get; set; }
+        public bool HealthyOption { get; set; }
 
-        public void SetHealthyOption(bool healthyOption)
+
+        public decimal CostOfBeveragesPerPerson;
+        public const int CostOfFoodPerPerson = 25;
+        private decimal cost;
+
+        public decimal Cost
         {
-            CostOfBeveragesPerPerson = healthyOption ? 5M : 20M;
-        }
-        public void CalculateCostOfDecorations(bool fancyBoxChecked)
-        {
-            if (fancyBoxChecked)
+            get
             {
-                CostOfDecorations = (NumberOfPeople * 15.00M) + 50M;
+                Decimal totalCost = (NumberOfPeople * (CostOfFoodPerPerson + CalculateCostOfBeveragesPerPerson()));
+                totalCost += CalculateCostOfDecorations();
+                return totalCost = HealthyOption ? totalCost * 0.95M : totalCost;
             }
-            else
-            {
-                CostOfDecorations = (NumberOfPeople * 7.50M) + 30M;
-            }
-            //CostOfDecorations = fancyBoxChecked ? ((NumberOfPeople * 15M) + 50M) : ((NumberOfPeople * 7.5M) + 30M);
+            set { cost = value; }
         }
-        public Decimal CalculateCost(bool healthyBoxChecked)
+
+
+        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
         {
-            Decimal totalCost = ((NumberOfPeople * (CostOfFoodPerPerson + CostOfBeveragesPerPerson)) + CostOfDecorations);
-            return totalCost = healthyBoxChecked ? totalCost * 0.95M : totalCost;
+            NumberOfPeople = numberOfPeople;
+            HealthyOption = healthyOption;
+            FancyDecorations = fancyDecorations;
+        }
+
+        private decimal CalculateCostOfDecorations()
+        {
+            decimal costOfDecorations;
+            return costOfDecorations = FancyDecorations ? (NumberOfPeople * 15.00M) + 50M : (NumberOfPeople * 7.50M) + 30M;
+
+        }
+        private decimal CalculateCostOfBeveragesPerPerson()
+        {
+            return CostOfBeveragesPerPerson = HealthyOption ? 5M : 20M;
         }
     }
 }
