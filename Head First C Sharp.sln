@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Save the Humans", "Chapter 01\Save the Humans\Save the Humans.csproj", "{10B0F15D-3AF6-4A86-9941-D87F1CE4F5FA}"
 EndProject
@@ -52,6 +52,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyPlanner", "Chapter 05\PartyPlanner\PartyPlanner.csproj", "{D679791E-242D-4BA4-A629-CB91ED2A39C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CowCalculator", "Chapter 05\CowCalculator\CowCalculator\CowCalculator.csproj", "{B1CD46DF-665C-4E56-A9F7-360CD307F387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 6", "Chapter 6", "{BA8CA0B3-AC14-41B3-BABF-621AA1E9A3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyPlannerBirthday", "Chapter 06\PartyPlannerBirthday\PartyPlannerBirthday.csproj", "{2D4ED0B6-1095-4519-87AA-21413DF1377E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -359,6 +363,22 @@ Global
 		{B1CD46DF-665C-4E56-A9F7-360CD307F387}.Release|ARM.ActiveCfg = Release|Any CPU
 		{B1CD46DF-665C-4E56-A9F7-360CD307F387}.Release|x64.ActiveCfg = Release|Any CPU
 		{B1CD46DF-665C-4E56-A9F7-360CD307F387}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|x64.Build.0 = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|ARM.Build.0 = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|x64.ActiveCfg = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|x64.Build.0 = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -385,5 +405,6 @@ Global
 		{42BDAC71-4528-46C6-92C3-A8D73C9E6CFC} = {CC6384A6-229A-4D23-82BE-731D62F52600}
 		{D679791E-242D-4BA4-A629-CB91ED2A39C7} = {B18C9692-4FEE-4996-BB7D-52C0C9BC24D5}
 		{B1CD46DF-665C-4E56-A9F7-360CD307F387} = {B18C9692-4FEE-4996-BB7D-52C0C9BC24D5}
+		{2D4ED0B6-1095-4519-87AA-21413DF1377E} = {BA8CA0B3-AC14-41B3-BABF-621AA1E9A3FB}
 	EndGlobalSection
 EndGlobal

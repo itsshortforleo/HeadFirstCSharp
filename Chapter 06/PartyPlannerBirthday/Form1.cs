@@ -13,12 +13,12 @@ namespace PartyPlannerBirthday
     public partial class Form1 : Form
     {
 
-        DinnerParty dinnerParty;
+        BirthdayParty dinnerParty;
 
         public Form1()
         {
             InitializeComponent();
-            dinnerParty = new DinnerParty((int)nudNumberOfPeople.Value, healthyBox.Checked, fancyBox.Checked) { };
+            dinnerParty = new BirthdayParty((int)nudNumberOfPeople.Value, healthyBox.Checked, fancyBox.Checked) { };
             DisplayDinnerPartyCost();
         }
 
