@@ -13,13 +13,25 @@ namespace PartyPlannerBirthday
     public partial class Form1 : Form
     {
 
-        BirthdayParty dinnerParty;
+        DinnerParty dinnerParty;
+        BirthdayParty birthdayParty;
 
         public Form1()
         {
             InitializeComponent();
-            dinnerParty = new BirthdayParty((int)nudNumberOfPeople.Value, healthyBox.Checked, fancyBox.Checked) { };
+            dinnerParty = new DinnerParty((int)nudNumberOfPeople.Value, healthyBox.Checked, fancyBox.Checked) { };
             DisplayDinnerPartyCost();
+
+            birthdayParty = new BirthdayParty((int)numberBirthday.Value, fancyBirthday.Checked, cakeWriting.Text);
+            DisplayBirthdayPartyCost();
+        }
+
+
+        private void DisplayBirthdayPartyCost()
+        {
+            tooLongLabel.Visible = birthdayParty.CakeWritingTooLong;
+            decimal cost = birthdayParty.Cost;
+            birthdayCost.Text = cost.ToString("c");
         }
 
         private void fancyBox_CheckedChanged(object sender, EventArgs e)
@@ -43,7 +55,22 @@ namespace PartyPlannerBirthday
             costLabel.Text = Cost.ToString("c");
         }
 
+        private void numberBirthday_ValueChanged(object sender, EventArgs e)
+        {
+            birthdayParty.NumberOfPeople = (int) numberBirthday.Value;
+            DisplayBirthdayPartyCost();
+        }
 
+        private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
+        {
+            birthdayParty.FancyDecorations = fancyBirthday.Checked;
+            DisplayBirthdayPartyCost();
+        }
 
+        private void cakeWriting_TextChanged(object sender, EventArgs e)
+        {
+            birthdayParty.CakeWriting = cakeWriting.Text;
+            DisplayBirthdayPartyCost();
+        }
     }
 }

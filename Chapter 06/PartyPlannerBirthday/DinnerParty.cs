@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace PartyPlannerBirthday
 {
-    public class BirthdayParty
+    public class DinnerParty
     {
         public int NumberOfPeople { get; set; }
         public bool FancyDecorations { get; set; }
@@ -30,7 +30,7 @@ namespace PartyPlannerBirthday
         }
 
 
-        public BirthdayParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
+        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
         {
             NumberOfPeople = numberOfPeople;
             HealthyOption = healthyOption;
