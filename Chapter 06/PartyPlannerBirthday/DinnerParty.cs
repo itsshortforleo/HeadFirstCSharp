@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace PartyPlannerBirthday
 {
-    public class BirthdayParty
+    public class DinnerParty
     {
         public int NumberOfPeople { get; set; }
         public bool FancyDecorations { get; set; }
@@ -24,13 +24,17 @@ namespace PartyPlannerBirthday
             {
                 Decimal totalCost = (NumberOfPeople * (CostOfFoodPerPerson + CalculateCostOfBeveragesPerPerson()));
                 totalCost += CalculateCostOfDecorations();
+                if (NumberOfPeople > 12)
+                {
+                    totalCost += 100M;
+                }
                 return totalCost = HealthyOption ? totalCost * 0.95M : totalCost;
             }
             set { cost = value; }
         }
 
 
-        public BirthdayParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
+        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
         {
             NumberOfPeople = numberOfPeople;
             HealthyOption = healthyOption;
