@@ -24,6 +24,10 @@ namespace PartyPlannerBirthday
             {
                 Decimal totalCost = (NumberOfPeople * (CostOfFoodPerPerson + CalculateCostOfBeveragesPerPerson()));
                 totalCost += CalculateCostOfDecorations();
+                if (NumberOfPeople > 12)
+                {
+                    totalCost += 100M;
+                }
                 return totalCost = HealthyOption ? totalCost * 0.95M : totalCost;
             }
             set { cost = value; }

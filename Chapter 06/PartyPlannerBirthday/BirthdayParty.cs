@@ -38,6 +38,10 @@ namespace PartyPlannerBirthday
                 {
                     cakeCost = 75M + ActualLength * .25M;
                 }
+                if (NumberOfPeople > 12)
+                {
+                    totalCost += 100M;
+                }
                 return totalCost + cakeCost;
             }
         }
