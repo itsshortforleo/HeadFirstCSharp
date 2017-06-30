@@ -6,7 +6,12 @@ namespace DoThisPage166
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Owner owner = new Owner();
+            Safe safe = new Safe();
+            JewelThief jewelThief = new JewelThief();
+            jewelThief.OpenSafe(safe, owner);
+
+            Console.ReadKey();
         }
     }
 }
